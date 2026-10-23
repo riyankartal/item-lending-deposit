@@ -1,0 +1,4 @@
+{"type":"event","event":{"event":{"kind":"rpc","id":"0da0f0e2-1","timestamp":1792768094389,"method":"wallet_requestPermissions","params":[{"eth_accounts":{}}],"chainId":0,"result":[{"parentCapability":"eth_accounts"}],"duration":5821},"enrichmentStatus":"none"}}
+{"type":"event","event":{"event":{"kind":"rpc","id":"0da0f0e2-2","timestamp":1792768100212,"method":"eth_requestAccounts","params":[],"chainId":0,"result":["0x7b8f0b8e09ca522ad3418fb89b9176f1bc74644c"],"duration":54},"enrichmentStatus":"none"}}
+{"type":"event","event":{"event":{"kind":"rpc","id":"0da0f0e2-4","timestamp":1792768100460,"method":"wallet_switchEthereumChain","params":[{"chainId":"0x4cef52"}],"chainId":5042002,"result":null,"duration":176},"enrichmentStatus":"none"}}
+{"type":"event","event":{"event":{"kind":"http","id":"0da0f0e2-9","timestamp":1792768101945,"method":"HEAD","url":"https://euc.li/hirokitotoki.eth","status":200,"duration":528,"responseBody":""},"enrichmentStatus":"none"}}

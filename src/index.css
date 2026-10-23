@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #ffffff;
+  --bg-gradient: linear-gradient(180deg, #f9f9fc 0%, #fffcf7 52%, #fbf7f2 100%);
+  --surface: rgba(255, 255, 255, 0.72);
+  --surface-strong: rgba(255, 255, 255, 0.90);
+  --surface-muted: #f5f5f8;
+  --ink: #122d45;
+  --ink-2: #334155;
+  --muted: #6b6580;
+  --subtle: #8a849c;
+  --border: rgba(18, 45, 69, 0.12);
+  --border-strong: rgba(25, 53, 77, 0.50);
+  --accent: #122d45;
+  --accent-hover: #1061a6;
+  --focus: #85b1ed;
+  --success: #1a8047;
+  --danger: #ba2b4c;
+}
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100dvh;
+  background: var(--bg-gradient);
+}
+
+.display {
+  font-family: 'Space Grotesk', sans-serif;
+  letter-spacing: -0.03em;
+}
+
+.mono {
+  font-family: 'JetBrains Mono', Menlo, monospace;
+}
+
+/* Shared input style */
+.input-field {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--border);
+  background: var(--surface-strong);
+  padding: 0.625rem 0.875rem;
+  font-size: 0.875rem;
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.input-field:focus {
+  border-color: var(--focus);
+  box-shadow: 0 0 0 3px rgba(133, 177, 237, 0.25);
+}
+
+.input-field::placeholder {
+  color: var(--subtle);
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: var(--accent);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s, opacity 0.15s;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--accent-hover);
+  transform: scale(1.01);
+}
+
+.btn-primary:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: var(--surface-muted);
+  color: var(--ink);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s, opacity 0.15s;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: rgba(18, 45, 69, 0.06);
+}
+
+.btn-secondary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Divide color helper */
+.divide-y > * + * {
+  border-top: 1px solid var(--border);
+}

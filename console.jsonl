@@ -1,0 +1,164 @@
+{"level":"debug","message":"[vite] hot updated: /src/App.tsx","timestamp":1792767660301}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767660301}
+{"level":"debug","message":"[vite] connected.","timestamp":1792767674731}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767679617}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767679617}
+{"level":"debug","message":"[vite] hot updated: /src/pages/Dashboard.tsx","timestamp":1792767680324}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767680324}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767680849}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767680849}
+{"level":"debug","message":"[vite] invalidate /src/components/FeeBreakdown.tsx: Could not Fast Refresh (\"fmt\" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports","timestamp":1792767689640}
+{"level":"debug","message":"[vite] hot updated: /src/components/FeeBreakdown.tsx","timestamp":1792767689640}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767689640}
+{"level":"debug","message":"(previous line repeated 1× more)","timestamp":1792767690730}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767690730}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767690730}
+{"level":"debug","message":"[vite] hot updated: /src/pages/BrowseOffers.tsx","timestamp":1792767692692}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767692692}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767694525}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767694525}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767696604}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767696604}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767703385}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767703385}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767708720}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767708720}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767715593}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767715593}
+{"level":"debug","message":"[vite] hot updated: /src/pages/Dashboard.tsx","timestamp":1792767721124}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767721125}
+{"level":"debug","message":"[vite] hot updated: /src/pages/Dashboard.tsx","timestamp":1792767723525}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767723525}
+{"level":"debug","message":"[vite] hot updated: /src/pages/Dashboard.tsx","timestamp":1792767727613}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767727613}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767731302}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767731302}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767733709}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767733709}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767736523}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767736523}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767739399}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767739400}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767743066}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767743066}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767746479}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767746479}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767750221}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767750222}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767758927}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767758927}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767760739}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767760739}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767763211}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767763211}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767766046}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767766047}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767768613}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767768614}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767771532}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767771532}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767775053}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767775053}
+{"level":"error","message":"[vite] Failed to reload /src/pages/LoanDetail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767791966}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767792099}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767792099}
+{"level":"error","message":"[vite] Failed to reload /src/pages/LoanDetail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767794796}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767794796}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767794796}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767794796}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767799971}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767800244}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767800244}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767800244}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767801203}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767801396}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767801396}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767801396}
+{"level":"error","message":"[vite] Failed to reload /src/pages/LoanDetail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767807074}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767807304}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767807305}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767807305}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767811537}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767812018}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767812018}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767812018}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767825581}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767825617}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767825618}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767825618}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767828532}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767828709}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767828709}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767828709}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767830579}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767830944}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767830944}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767830944}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767833402}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767833739}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767833740}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767833740}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767836025}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767836589}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767836589}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767836589}
+{"level":"error","message":"[vite] Failed to reload /src/pages/LoanDetail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767839092}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767839092}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767839092}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767839092}
+{"level":"error","message":"[vite] Failed to reload /src/pages/LoanDetail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767841503}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767841970}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767841971}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767841971}
+{"level":"error","message":"[vite] Failed to reload /src/pages/LoanDetail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767844456}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767844628}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767844628}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767844628}
+{"level":"error","message":"[vite] Failed to reload /src/pages/LoanDetail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767846918}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767847296}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767847296}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767847296}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767873974}
+{"level":"error","message":"[vite] Failed to reload /src/pages/Dashboard.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767873975}
+{"level":"error","message":"[vite] Failed to reload /src/pages/LoanDetail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767873975}
+{"level":"error","message":"[vite] Failed to reload /src/pages/BrowseOffers.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767873975}
+{"level":"error","message":"[vite] Failed to reload /src/components/FeeBreakdown.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767873975}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767874001}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767874001}
+{"level":"debug","message":"[vite] hot updated: /src/pages/Dashboard.tsx","timestamp":1792767874001}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767874001}
+{"level":"debug","message":"[vite] hot updated: /src/pages/BrowseOffers.tsx","timestamp":1792767874001}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767874001}
+{"level":"debug","message":"[vite] hot updated: /src/components/FeeBreakdown.tsx","timestamp":1792767874001}
+{"level":"error","message":"[vite] Failed to reload /src/pages/BrowseOffers.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767892631}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767892922}
+{"level":"debug","message":"[vite] hot updated: /src/pages/BrowseOffers.tsx","timestamp":1792767892922}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767892922}
+{"level":"error","message":"[vite] Failed to reload /src/pages/Dashboard.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767893080}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767893491}
+{"level":"debug","message":"[vite] hot updated: /src/pages/Dashboard.tsx","timestamp":1792767893491}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767893491}
+{"level":"error","message":"[vite] Failed to reload /src/pages/LoanDetail.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767893677}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767893706}
+{"level":"debug","message":"[vite] hot updated: /src/pages/LoanDetail.tsx","timestamp":1792767893706}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767893706}
+{"level":"error","message":"[vite] Failed to reload /src/pages/CreateOffer.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767900153}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767900362}
+{"level":"debug","message":"[vite] hot updated: /src/pages/CreateOffer.tsx","timestamp":1792767900362}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767900363}
+{"level":"error","message":"[vite] Failed to reload /src/pages/BrowseOffers.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767904891}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767905087}
+{"level":"debug","message":"[vite] hot updated: /src/pages/BrowseOffers.tsx","timestamp":1792767905087}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767905087}
+{"level":"error","message":"[vite] Failed to reload /src/pages/Dashboard.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767907089}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767907090}
+{"level":"debug","message":"[vite] hot updated: /src/pages/Dashboard.tsx","timestamp":1792767907090}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767907090}
+{"level":"error","message":"[vite] Failed to reload /src/pages/BrowseOffers.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767933251}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767933711}
+{"level":"debug","message":"[vite] hot updated: /src/pages/BrowseOffers.tsx","timestamp":1792767933712}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767933712}
+{"level":"error","message":"[vite] Failed to reload /src/pages/Dashboard.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767936919}
+{"level":"error","message":"[vite] Failed to reload /src/index.css. This could be due to syntax errors or importing non-existent modules. (see errors above)","timestamp":1792767936927}
+{"level":"debug","message":"[vite] hot updated: /src/pages/Dashboard.tsx","timestamp":1792767936927}
+{"level":"debug","message":"[vite] hot updated: /src/index.css","timestamp":1792767936927}

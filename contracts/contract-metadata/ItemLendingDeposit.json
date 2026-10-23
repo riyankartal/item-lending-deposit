@@ -1,0 +1,858 @@
+{
+  "contractAddress": "0xe0321f53ca7881159e073490a3db5eb19e0c0302",
+  "network": "ARC-TESTNET",
+  "deployerWalletId": "3c2464b2-8369-52e2-a782-800bbeca5396",
+  "contract_code_path": "/home/user/app/contracts/ItemLendingDeposit.sol",
+  "contract_compiled_code_path": "/home/user/app/contracts/out/ItemLendingDeposit.sol/ItemLendingDeposit.json",
+  "contract_network_and_links": {
+    "Arc Testnet": "https://explorer.testnet.arc.io/address/0xe0321f53ca7881159e073490a3db5eb19e0c0302"
+  },
+  "contract_deployments": [
+    {
+      "chain": "Arc Testnet",
+      "address": "0xe0321f53ca7881159e073490a3db5eb19e0c0302",
+      "explorerUrl": "https://explorer.testnet.arc.io/address/0xe0321f53ca7881159e073490a3db5eb19e0c0302",
+      "txHash": "0x71933829f6e16b8aabcaa2229b0562aa6bed04a3acb684d7e372897d8e6a51e7",
+      "deployedAt": "2026-10-23T15:04:23.910Z"
+    }
+  ],
+  "abi": [
+    {
+      "type": "constructor",
+      "inputs": [
+        {
+          "name": "usdcAddress",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "platformWalletAddress",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "BPS_DENOMINATOR",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "LATE_FEE_BPS_PER_DAY",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "LENDER_GRACE_PERIOD",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "PLATFORM_FEE_BPS",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "USDC",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "approveExtension",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "cancelLoan",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "claimExpiredEscrow",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "claimFunds",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "confirmReturn",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "returnType",
+          "type": "uint8",
+          "internalType": "uint8"
+        },
+        {
+          "name": "damageBps",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "createLoan",
+      "inputs": [
+        {
+          "name": "itemName",
+          "type": "string",
+          "internalType": "string"
+        },
+        {
+          "name": "itemDescription",
+          "type": "string",
+          "internalType": "string"
+        },
+        {
+          "name": "depositAmount",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "returnDate",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "handoverPhotoUrl",
+          "type": "string",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "getActiveLoanCount",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getBorrowerLoans",
+      "inputs": [
+        {
+          "name": "borrower",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256[]",
+          "internalType": "uint256[]"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getLenderLoans",
+      "inputs": [
+        {
+          "name": "lender",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256[]",
+          "internalType": "uint256[]"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getLoan",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "tuple",
+          "internalType": "struct ItemLendingDeposit.Loan",
+          "components": [
+            {
+              "name": "loanId",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "lender",
+              "type": "address",
+              "internalType": "address"
+            },
+            {
+              "name": "borrower",
+              "type": "address",
+              "internalType": "address"
+            },
+            {
+              "name": "itemName",
+              "type": "string",
+              "internalType": "string"
+            },
+            {
+              "name": "itemDescription",
+              "type": "string",
+              "internalType": "string"
+            },
+            {
+              "name": "depositAmount",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "escrowAmount",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "returnDate",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "status",
+              "type": "uint8",
+              "internalType": "enum ItemLendingDeposit.LoanStatus"
+            },
+            {
+              "name": "createdAt",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "lockedAt",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "handoverPhotoUrl",
+              "type": "string",
+              "internalType": "string"
+            },
+            {
+              "name": "returnPhotoUrl",
+              "type": "string",
+              "internalType": "string"
+            },
+            {
+              "name": "returnSignaledAt",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "extensionRequested",
+              "type": "bool",
+              "internalType": "bool"
+            },
+            {
+              "name": "extensionDays",
+              "type": "uint256",
+              "internalType": "uint256"
+            },
+            {
+              "name": "extensionApproved",
+              "type": "bool",
+              "internalType": "bool"
+            }
+          ]
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getTotalLoanCount",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "loans",
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "lender",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "borrower",
+          "type": "address",
+          "internalType": "address"
+        },
+        {
+          "name": "itemName",
+          "type": "string",
+          "internalType": "string"
+        },
+        {
+          "name": "itemDescription",
+          "type": "string",
+          "internalType": "string"
+        },
+        {
+          "name": "depositAmount",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "escrowAmount",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "returnDate",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "status",
+          "type": "uint8",
+          "internalType": "enum ItemLendingDeposit.LoanStatus"
+        },
+        {
+          "name": "createdAt",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "lockedAt",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "handoverPhotoUrl",
+          "type": "string",
+          "internalType": "string"
+        },
+        {
+          "name": "returnPhotoUrl",
+          "type": "string",
+          "internalType": "string"
+        },
+        {
+          "name": "returnSignaledAt",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "extensionRequested",
+          "type": "bool",
+          "internalType": "bool"
+        },
+        {
+          "name": "extensionDays",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "extensionApproved",
+          "type": "bool",
+          "internalType": "bool"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "lockDeposit",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "pendingClaims",
+      "inputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "platformWallet",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address",
+          "internalType": "address"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "rejectExtension",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "requestExtension",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "extraDays",
+          "type": "uint256",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "signalReturn",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "internalType": "uint256"
+        },
+        {
+          "name": "returnPhotoUrl",
+          "type": "string",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "event",
+      "name": "DepositLocked",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "borrower",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "depositAmount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "platformFee",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "escrowAmount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "EscrowExpiryClaimed",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "borrower",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "escrowAmount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "ExtensionApproved",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "newReturnDate",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "ExtensionRejected",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "ExtensionRequested",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "borrower",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "extraDays",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "FundsClaimed",
+      "inputs": [
+        {
+          "name": "recipient",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "LoanCancelled",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "LoanCreated",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "lender",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "itemName",
+          "type": "string",
+          "indexed": false,
+          "internalType": "string"
+        },
+        {
+          "name": "depositAmount",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "returnDate",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "PlatformWalletSet",
+      "inputs": [
+        {
+          "name": "platformWallet",
+          "type": "address",
+          "indexed": false,
+          "internalType": "address"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "ReturnConfirmed",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "returnType",
+          "type": "uint8",
+          "indexed": false,
+          "internalType": "uint8"
+        },
+        {
+          "name": "daysOverdue",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "lateFee",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "damageDeduction",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "borrowerRefund",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "name": "lenderPayout",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "ReturnSignaled",
+      "inputs": [
+        {
+          "name": "loanId",
+          "type": "uint256",
+          "indexed": true,
+          "internalType": "uint256"
+        },
+        {
+          "name": "borrower",
+          "type": "address",
+          "indexed": true,
+          "internalType": "address"
+        },
+        {
+          "name": "signalTimestamp",
+          "type": "uint256",
+          "indexed": false,
+          "internalType": "uint256"
+        }
+      ],
+      "anonymous": false
+    },
+    {
+      "type": "error",
+      "name": "ReentrancyGuardReentrantCall",
+      "inputs": []
+    },
+    {
+      "type": "error",
+      "name": "SafeERC20FailedOperation",
+      "inputs": [
+        {
+          "name": "token",
+          "type": "address",
+          "internalType": "address"
+        }
+      ]
+    }
+  ]
+}
