@@ -12,22 +12,18 @@
  * USDC, at different decimal counts: 'nativeCurrency' for the gas token,
  * 'usdc' for the ERC-20. Mixing the two is a 10^12 error on a money path.
  */
-
 export const USDC_DECIMALS = 6;
-
 export interface TokenFact {
   symbol: string;
   address: string;
   decimals: number;
 }
-
 export interface NativeCurrencyFact {
   symbol: string;
   decimals: number;
   /** True when the gas token IS USDC, which makes 'decimals' above the gas decimals. */
   isUsdc: boolean;
 }
-
 export interface OnchainChain {
   chainId: number;
   name: string;
@@ -43,19 +39,16 @@ export interface OnchainChain {
   /** Circle SCP blockchain enum. Absent unless the deploy tool supports the chain. */
   scpBlockchain?: string;
 }
-
 export interface ProtocolContractFact {
   name: string;
   address: string;
   protocol: 'CCTP' | 'Gateway';
   networkKind?: 'testnet' | 'mainnet';
 }
-
 interface OnchainFacts {
   chains: OnchainChain[];
   protocolContracts: ProtocolContractFact[];
 }
-
 const FACTS: OnchainFacts = {
   "chains": [
     {
@@ -65,7 +58,7 @@ const FACTS: OnchainFacts = {
       "family": "arc",
       "explorerBase": "https://explorer.testnet.arc.io",
       "rpcUrls": [
-        "https://rpc.testnet.arc.io"
+        "https://rpc.testnet.arc.network"
       ],
       "nativeCurrency": {
         "symbol": "USDC",
@@ -553,54 +546,39 @@ const FACTS: OnchainFacts = {
     }
   ]
 };
-
 export const ONCHAIN_CHAINS: readonly OnchainChain[] = FACTS.chains;
-
 export const TESTNET_ONCHAIN_CHAINS: readonly OnchainChain[] = FACTS.chains.filter((chain) => chain.isTestnet);
-
 /** CCTP and Gateway addresses differ by network kind (see networkKind) — mainnet differs from testnet. */
 export const EVM_PROTOCOL_CONTRACTS: readonly ProtocolContractFact[] = FACTS.protocolContracts;
-
 const BY_CHAIN_ID = new Map(ONCHAIN_CHAINS.map((chain) => [chain.chainId, chain]));
-
 const BY_SCP_BLOCKCHAIN = new Map(
   ONCHAIN_CHAINS.flatMap((chain) => (chain.scpBlockchain ? [[chain.scpBlockchain, chain] as const] : [])),
 );
-
 export function getChain(chainId: number): OnchainChain | undefined {
   return BY_CHAIN_ID.get(chainId);
 }
-
 export function requireChain(chainId: number): OnchainChain {
   const chain = getChain(chainId);
-
   if (!chain) {
     throw new Error('Unknown chain ID ' + chainId + ' — ask Arc Studio to add it to its onchain facts registry');
   }
-
   return chain;
 }
-
 export function getChainByScpBlockchain(blockchain: string): OnchainChain | undefined {
   return BY_SCP_BLOCKCHAIN.get(blockchain);
 }
-
 export function requireChainByScpBlockchain(blockchain: string): OnchainChain {
   const chain = getChainByScpBlockchain(blockchain);
-
   if (!chain) {
     throw new Error(
       "No chain for SCP blockchain '" + blockchain + "' — ask Arc Studio to add it to its onchain facts registry",
     );
   }
-
   return chain;
 }
-
 export function getUsdc(chainId: number): TokenFact | undefined {
   return getChain(chainId)?.usdc;
 }
-
 export function getProtocolContractByName(
   name: string,
   networkKind?: 'testnet' | 'mainnet',
@@ -611,11 +589,9 @@ export function getProtocolContractByName(
   }
   return matches.find((contract) => contract.networkKind === undefined || contract.networkKind === networkKind);
 }
-
 export function buildAddressExplorerUrl(chainId: number, address: string): string {
   return requireChain(chainId).explorerBase + '/address/' + address;
 }
-
 export function buildTxExplorerUrl(chainId: number, txHash: string): string {
   return requireChain(chainId).explorerBase + '/tx/' + txHash;
 }
