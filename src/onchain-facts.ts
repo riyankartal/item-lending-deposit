@@ -58,7 +58,7 @@ const FACTS: OnchainFacts = {
       "family": "arc",
       "explorerBase": "https://explorer.testnet.arc.io",
       "rpcUrls": [
-        "https://rpc.testnet.arc.network"
+        "https://stylish-morning-lambo.arc-testnet.quiknode.pro/f3a285ee5dffa47dbb4a27f8fb4eef634745f125/"
       ],
       "nativeCurrency": {
         "symbol": "USDC",
